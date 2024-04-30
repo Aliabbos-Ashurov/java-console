@@ -40,27 +40,30 @@
 4. **Use the Utility Classes**
 
     - **NotificationHandler**
-      ```java
+      ````java
       NotificationHandler.checkData(myList);
       NotificationHandler.notifyAction("Object", "creation", true);
-      ```
+      ````
 
     - **ListUtils**
       ```java
       ListUtils.displayList(myList);
       boolean hasData = ListUtils.checkDataForNotNull(myList);
-      ```
+      ````
 
     - **Scan**
       ```java
       String userInput = Scan.scanStr("Enter your name");
       int userAge = Scan.scanInt("Enter your age");
-      ```
+      ````
 
     - **ColorConstants**
-      ```java
+      ````java
       System.out.println(ColorConstants.ANSI_GREEN + "Success!" + ColorConstants.ANSI_RESET);
-      ```
+      ````
 
 ## Dependencies
 - This JAR file may require Java Runtime Environment (JRE) 8 or later.
+
+## Contributing
+- Contributions to this project are welcome. Please submit pull requests to the repository.
