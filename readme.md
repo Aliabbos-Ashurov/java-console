@@ -30,11 +30,7 @@
 3. **Import Required Classes**
     - Import the necessary classes in your Java files:
       ```java
-      import com.pdp.backend.NotificationHandler;
-      import com.pdp.backend.ListUtils;
-      import com.pdp.backend.Scan;
-      import com.pdp.support.ColorConstants;
-      import com.pdp.support.Ui;
+
       ```
 
 4. **Use the Utility Classes**
